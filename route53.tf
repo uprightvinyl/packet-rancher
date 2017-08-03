@@ -1,6 +1,4 @@
 
-/*
-
 resource "aws_route53_record" "ranch-ewr-1" {
   zone_id = "${var.route53_zone_id}"
   name    = "ranch-ewr-1.${var.fqdn}"
@@ -42,4 +40,3 @@ resource "aws_route53_record" "ranch-ewr-1-a1" {
     "${packet_device.ranch-ewr-1-a1.network.0.address}"
   ]
 }
-*/

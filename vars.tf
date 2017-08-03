@@ -1,4 +1,4 @@
-/* variable "aws_access_key" {
+variable "aws_access_key" {
   description = "aws_access_key"
 }
 
@@ -9,8 +9,6 @@
   variable "route53_zone_id" {
   description = "Route53 Zone ID"
 }
-
-*/
 
 variable "packet_api_key" {
   description = "Packet API key"
