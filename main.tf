@@ -1,6 +1,6 @@
 /*
 
-This Terraform file creates an external volume and three hosts.
+This Terraform file creates a Packet external volume and three Packet hosts to run Rancher on.
 
 The first host is attached via the packet.net api to the external volume. MySQL is started in a container and
 the data persisted to the external volume.
